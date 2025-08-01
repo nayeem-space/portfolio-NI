@@ -1,0 +1,85 @@
+.app__education {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.app__education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+.education-entry {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .edu-date {
+    min-width: 120px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.25rem;
+  }
+
+  .edu-details {
+    flex: 1;
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    p {
+      color: #555;
+      margin: 0.3rem 0;
+      line-height: 1.5;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+
+    .edu-date {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    padding: 2rem;
+
+    .edu-date {
+      font-size: 1.2rem;
+    }
+
+    .edu-details h3 {
+      font-size: 1.5rem;
+    }
+
+    .edu-details p {
+      font-size: 1.1rem;
+    }
+  }
+}
