@@ -1,0 +1,130 @@
+{
+  "works": [
+    {
+      "id": "retinal-haemorrhage-segmentation",
+      "repositoryUrl": "https://github.com/nayeem-space/Retinal-Haemorrhage-Segmentation",
+      "description": "My final-year project evaluated U-Net variants and the Segment Anything Model (SAM) for detecting and outlining haemorrhages in retinal photographs. I prepared the training images and proposed a U-Net variant for the task.",
+      "tags": ["Computer Vision", "PyTorch"],
+      "title": "Retinal Haemorrhage Segmentation",
+      "image": {
+        "src": "/images/project-retinal-haemorrhage-segmentation.jpg",
+        "alt": "Retinal Haemorrhage Segmentation",
+        "width": 1919,
+        "height": 1728
+      },
+      "slug": "retinal-haemorrhage-segmentation"
+    },
+    {
+      "id": "antto",
+      "repositoryUrl": "https://github.com/nayeem-space/ANTTO",
+      "description": "A cloud-native platform for education communities, built with Rust, Django, and React. Members can join interest groups, share posts, and organise events.",
+      "tags": ["Django", "Rust"],
+      "title": "A.N.T.T.O",
+      "image": {
+        "src": "/images/project-antto.png",
+        "alt": "A.N.T.T.O",
+        "width": 382,
+        "height": 366
+      },
+      "slug": "antto"
+    },
+    {
+      "id": "hangman-arm-assembly",
+      "repositoryUrl": "https://github.com/nayeem-space/Hangman-ARM-Assembly",
+      "description": "An interactive Hangman game built in ARM assembly for Raspberry Pi. It handles player input, tracks guesses, draws the game state, and supports multiple rounds.",
+      "tags": ["ARM Assembly"],
+      "title": "Hangman in ARM Assembly",
+      "image": {
+        "src": "/images/project-hangman-arm-assembly.png",
+        "alt": "Hangman in ARM Assembly",
+        "width": 562,
+        "height": 254
+      },
+      "slug": "hangman-arm-assembly"
+    }
+  ],
+  "abouts": [
+    {
+      "id": "agentic-ai",
+      "title": "Agentic AI Systems",
+      "description": "Production AI workflows in Python, using LangChain and LangGraph to integrate models, coordinate tool calls, and orchestrate multi-step tasks."
+    },
+    {
+      "id": "large-language-models",
+      "description": "Retrieval-augmented generation using Amazon OpenSearch Serverless vector indexes and Neo4j knowledge graphs for semantic and graph-based search.",
+      "title": "Retrieval & Knowledge Graphs"
+    },
+    {
+      "id": "cloud-architecture",
+      "title": "AWS Cloud Architecture",
+      "description": "Serverless AWS infrastructure provisioned with Terraform, with attention to identity and access management, networking, and reproducible environments."
+    },
+    {
+      "id": "devops-ci-cd",
+      "title": "DevOps & GitLab CI/CD",
+      "description": "GitLab CI/CD pipelines with Pants Build and Docker for dependency-aware testing, incremental builds, deployment packaging, and automated releases."
+    },
+    {
+      "id": "computer-vision",
+      "description": "Object detection and image segmentation for road defect detection with YOLO and retinal image analysis with U-Net variants.",
+      "title": "Computer Vision"
+    },
+    {
+      "id": "web-development",
+      "description": "Full-stack application development and modernisation, including AI service integration with Python, C#/.NET, React, and TypeScript.",
+      "title": "Software Engineering"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "ibm-ai-engineer",
+      "company": "IBM",
+      "employmentType": "Contracted",
+      "dateRange": "Apr 2026 – Present",
+      "location": "London, United Kingdom",
+      "role": "Artificial Intelligence Engineer",
+      "responsibilities": [
+        "Develop a production AI platform for document retrieval and generation, orchestrating multi-step workflows with Python, LangChain, and LangGraph.",
+        "Design vector and graph retrieval pipelines with Amazon OpenSearch Serverless and Neo4j, and contribute to AWS architecture for identity, networking, and data access.",
+        "Build GitLab CI/CD pipelines with Pants Build for dependency-aware testing and incremental builds. Provision reproducible infrastructure with Terraform and Docker."
+      ]
+    },
+    {
+      "id": "metricell-junior-ai-engineer",
+      "company": "Metricell Limited",
+      "employmentType": "Permanent",
+      "dateRange": "Oct 2025 – Apr 2026",
+      "location": "Horsham, United Kingdom",
+      "role": "Junior Artificial Intelligence Engineer",
+      "responsibilities": [
+        "Deployed AI tools for support ticket summarisation and telecom network monitoring. Built tool-calling and retrieval workflows to help diagnose network faults.",
+        "Hosted models on GPU infrastructure and integrated AI services into C#/.NET applications.",
+        "Built a YOLO-based detection and segmentation pipeline to identify road defects."
+      ]
+    },
+    {
+      "id": "metricell-software-developer-placement",
+      "company": "Metricell Limited",
+      "employmentType": "Permanent",
+      "dateRange": "Aug 2023 – Aug 2024",
+      "location": "Horsham, United Kingdom",
+      "responsibilities": [
+        "Modernised legacy C#/.NET and React applications, cutting load times by up to 40%.",
+        "Reduced reporting query times by more than 45% through SQL Server and ETL improvements.",
+        "Resolved more than 100 production bugs with QA and Support, contributing to a 30% reduction in support tickets."
+      ],
+      "role": "Placement Software Developer"
+    },
+    {
+      "id": "surrey-lab-peer-mentor",
+      "company": "University of Surrey",
+      "dateRange": "Sep 2022 – May 2023",
+      "location": "Guildford, United Kingdom",
+      "responsibilities": [
+        "Mentored more than 100 first-year students in SQL, database design, and operating systems.",
+        "Helped students diagnose and resolve practical issues during lab sessions and one-to-one support."
+      ],
+      "role": "Lab Peer / PALS Mentor"
+    }
+  ]
+}
